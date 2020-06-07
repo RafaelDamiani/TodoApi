@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\projects\\TodoApi\\TodoApi.csproj": {}
+    "C:\\projects\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "c:\\projects\\TodoApi\\TodoApi.csproj": {
+    "C:\\projects\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\projects\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\projects\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "c:\\projects\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\projects\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "c:\\projects\\TodoApi\\obj\\",
+        "outputPath": "C:\\projects\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
